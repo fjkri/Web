@@ -1,0 +1,72 @@
+.container{
+    border-radius: 40px;
+    width: 310px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 1.4px black;
+    background-color: rgb(255, 255, 255);
+}
+
+.container .card img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.container .card h2{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 15px;
+    color: black;
+}
+
+p{
+    margin: 15px;
+    color: grey;
+}
+
+.container .card .billboard{
+    width: 90px;
+    height: 20px;
+    margin: 20px;
+    color: rgb(255, 0, 149);
+    background-color: pink;
+    margin-top: -5px;
+    border-radius: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card h3{
+    font-size: 12px;
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0px;
+    color: grey;
+    padding: 40px 260px;
+    line-height: 24px;
+    writing-mode: vertical-rl;
+    word-spacing: 5px;
+}
+
+.container .play{
+    width: 70px;
+    height: 30px;
+    margin: 225px;
+    margin-top: -50px;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(36, 1, 1);
+}
